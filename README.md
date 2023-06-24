@@ -1,6 +1,6 @@
 # SUB_QUERY
 
-1. Tampilkan data karyawan yang bekerja pada departemen yang sama dengan karyawan yang bernama Dika
+# 1. Tampilkan data karyawan yang bekerja pada departemen yang sama dengan karyawan yang bernama Dika
 SELECT k.nik, k.id_dept, k.nama
 FROM k
 WHERE id_dept = (
